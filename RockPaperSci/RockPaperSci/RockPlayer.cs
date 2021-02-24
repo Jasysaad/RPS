@@ -4,11 +4,16 @@ using System.Text;
 
 namespace RockPaperSci
 {
-	public class RockPlayer:Player
+	 class RockPlayer:Player
 	{
+		public string Name { get; set; }
+		public RockPlayer()
+        {
+			Name = "Dwayne";
+        }
 		public override RPS GenerateRPS()
         {
-			return rock;
+			return RPS.rock;
         }
 	}
 

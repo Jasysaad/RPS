@@ -10,7 +10,7 @@ namespace RockPaperSci
 
 		public Player(string _name) //sets name
         {
-			Name = _name;
+			string Name = _name;
         }
 		public Player() //incase empty
         {
