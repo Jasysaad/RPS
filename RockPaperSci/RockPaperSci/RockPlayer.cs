@@ -4,11 +4,13 @@ using System.Text;
 
 namespace RockPaperSci
 {
-    class Program
-    {
-        static void Main(string[] args)
+	public class RockPlayer:Player
+	{
+		public override RPS GenerateRPS()
         {
-            Console.WriteLine("Hello World!");
+			return rock;
         }
-    }
+	}
+
+
 }
